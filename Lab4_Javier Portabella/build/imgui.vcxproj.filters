@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8A6C6649-1B25-3E2B-ACB1-FB2AC1BD9C24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7A4C1B3D-DFE3-393E-9E2F-66C03760F8A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

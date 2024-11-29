@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\6db33d39f372b20e36310587b0587670\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{89525BB5-8303-3EDA-9866-24D3E749A8EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

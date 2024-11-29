@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{75EDB0A4-1922-362B-8C98-F60176C75D78}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ACG</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ACG.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ACG</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ACG.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ACG</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ACG.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ACG</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ACG.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ACG</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_AMD64_;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_QUAT_DATA_XYZW;GLM_FORCE_QUAT_CTOR_XYZW;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_AMD64_;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_QUAT_DATA_XYZW;GLM_FORCE_QUAT_CTOR_XYZW;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libraries\glfw\src\Debug\glfw3.lib;libraries\glew-cmake\lib\Debug\glewd.lib;libraries\glm\glm\Debug\glm.lib;libraries\easyVDB\Debug\easyVDB.lib;Debug\imgui.lib;libraries\glm\glm\Debug\glm.lib;libraries\easyVDB\libraries\zlib\Debug\zlibstaticd.lib;libraries\easyVDB\libraries\c-blosc\blosc\Debug\libblosc.lib;libraries\glfw\src\Debug\glfw3.lib;libraries\glew-cmake\lib\Debug\glewd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/Debug/ACG.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/Debug/ACG.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_QUAT_DATA_XYZW;GLM_FORCE_QUAT_CTOR_XYZW;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_QUAT_DATA_XYZW;GLM_FORCE_QUAT_CTOR_XYZW;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libraries\glfw\src\Release\glfw3.lib;libraries\glew-cmake\lib\Release\glew.lib;libraries\glm\glm\Release\glm.lib;libraries\easyVDB\Release\easyVDB.lib;Release\imgui.lib;libraries\glm\glm\Release\glm.lib;libraries\easyVDB\libraries\zlib\Release\zlibstatic.lib;libraries\easyVDB\libraries\c-blosc\blosc\Release\libblosc.lib;libraries\glfw\src\Release\glfw3.lib;libraries\glew-cmake\lib\Release\glew.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/Release/ACG.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/Release/ACG.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_QUAT_DATA_XYZW;GLM_FORCE_QUAT_CTOR_XYZW;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_QUAT_DATA_XYZW;GLM_FORCE_QUAT_CTOR_XYZW;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libraries\glfw\src\MinSizeRel\glfw3.lib;libraries\glew-cmake\lib\MinSizeRel\glew.lib;libraries\glm\glm\MinSizeRel\glm.lib;libraries\easyVDB\MinSizeRel\easyVDB.lib;MinSizeRel\imgui.lib;libraries\glm\glm\MinSizeRel\glm.lib;libraries\easyVDB\libraries\zlib\MinSizeRel\zlibstatic.lib;libraries\easyVDB\libraries\c-blosc\blosc\MinSizeRel\libblosc.lib;libraries\glfw\src\MinSizeRel\glfw3.lib;libraries\glew-cmake\lib\MinSizeRel\glew.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/MinSizeRel/ACG.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/MinSizeRel/ACG.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_QUAT_DATA_XYZW;GLM_FORCE_QUAT_CTOR_XYZW;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_QUAT_DATA_XYZW;GLM_FORCE_QUAT_CTOR_XYZW;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glfw\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glew-cmake\include;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\glm;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\src;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\zlib;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\blosc;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\lz4-1.9.4;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zlib-1.3.1;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\easyVDB\libraries\c-blosc\internal-complibs\zstd-1.5.6\common;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libraries\glfw\src\RelWithDebInfo\glfw3.lib;libraries\glew-cmake\lib\RelWithDebInfo\glew.lib;libraries\glm\glm\RelWithDebInfo\glm.lib;libraries\easyVDB\RelWithDebInfo\easyVDB.lib;RelWithDebInfo\imgui.lib;libraries\glm\glm\RelWithDebInfo\glm.lib;libraries\easyVDB\libraries\zlib\RelWithDebInfo\zlibstatic.lib;libraries\easyVDB\libraries\c-blosc\blosc\RelWithDebInfo\libblosc.lib;libraries\glfw\src\RelWithDebInfo\glfw3.lib;libraries\glew-cmake\lib\RelWithDebInfo\glew.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/RelWithDebInfo/ACG.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/RelWithDebInfo/ACG.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent -BC:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build --check-stamp-file C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeRCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeCCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeCXXCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeRCCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeSystem.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent -BC:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build --check-stamp-file C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeRCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeCCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeCXXCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeRCCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeSystem.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent -BC:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build --check-stamp-file C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeRCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeCCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeCXXCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeRCCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeSystem.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent -BC:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build --check-stamp-file C:/Users/javie/OneDrive/Escritorio/Uni/Quart/ACGFrameworkStudent/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeRCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeCCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeCXXCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeRCCompiler.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\3.31.0-rc2\CMakeSystem.cmake;C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\application.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\main.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\camera.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\light.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\scenenode.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\utils.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\material.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\mesh.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\shader.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\texture.cpp" />
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo\ImGuizmo.cpp" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\application.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\camera.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\includes.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\light.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\scenenode.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\utils.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\material.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\mesh.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\shader.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\texture.h" />
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo\ImGuizmo.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\ZERO_CHECK.vcxproj">
+      <Project>{0C8C6BE7-375E-3397-985B-AC65A73B019E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\c-blosc\blosc\blosc_static.vcxproj">
+      <Project>{E6505FDD-461C-3B92-AC24-634C62D21E41}</Project>
+      <Name>blosc_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\easyVDB.vcxproj">
+      <Project>{119DC74D-3E91-35EA-A296-F0A4BE9DD2FD}</Project>
+      <Name>easyVDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\glfw\src\glfw.vcxproj">
+      <Project>{86B28063-2F62-3D16-9799-EFCFA7DB32E2}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\glm\glm\glm.vcxproj">
+      <Project>{F80208AB-64D4-3999-88FE-C25D7B05F732}</Project>
+      <Name>glm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\imgui.vcxproj">
+      <Project>{727BC0FC-D827-3783-9F9E-431D005492B4}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\glew-cmake\libglew_static.vcxproj">
+      <Project>{F878A9C9-4CB3-3472-BEEE-E0E8FC6F16C8}</Project>
+      <Name>libglew_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\build\libraries\easyVDB\libraries\zlib\zlibstatic.vcxproj">
+      <Project>{4ED38FB1-1BDD-3AF7-916D-309D2367301C}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

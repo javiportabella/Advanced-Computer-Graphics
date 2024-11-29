@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\camera.cpp">
+      <Filter>src\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\light.cpp">
+      <Filter>src\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\scenenode.cpp">
+      <Filter>src\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\utils.cpp">
+      <Filter>src\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\material.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\mesh.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\shader.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\texture.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo\ImGuizmo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\application.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\camera.h">
+      <Filter>src\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\includes.h">
+      <Filter>src\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\light.h">
+      <Filter>src\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\scenenode.h">
+      <Filter>src\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\framework\utils.h">
+      <Filter>src\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\material.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\mesh.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\shader.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\src\graphics\texture.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\libraries\imguizmo\ImGuizmo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\javie\OneDrive\Escritorio\Uni\Quart\ACGFrameworkStudent\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8A6C6649-1B25-3E2B-ACB1-FB2AC1BD9C24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7A4C1B3D-DFE3-393E-9E2F-66C03760F8A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{858A298A-03C6-34DC-80D4-27002B49115F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\framework">
+      <UniqueIdentifier>{3FA66501-9E91-3A13-BFF5-32B2F1588FD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{7E2E9F2E-4E73-3C04-8D2D-9E9724CE70CD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
